@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_131" class="java.beans.XMLDecoder">
+ <object class="java.util.HashMap">
+  <void method="put">
+   <string>barça</string>
+   <object class="domain.Equipo" id="Equipo0">
+    <void property="creacion">
+     <object class="java.util.Date">
+      <long>-2555713860000</long>
+     </object>
+    </void>
+    <void property="jugadores">
+     <void method="add">
+      <object class="domain.Jugador">
+       <void property="asistencias">
+        <int>2000</int>
+       </void>
+       <void property="canastas">
+        <int>200</int>
+       </void>
+       <void property="nacimiento">
+        <object class="java.util.Date">
+         <long>783385200000</long>
+        </object>
+       </void>
+       <void property="nombre">
+        <string>paco</string>
+       </void>
+       <void property="posicion">
+        <object class="java.lang.Enum" method="valueOf">
+         <class>domain.Posicion</class>
+         <string>base</string>
+        </object>
+       </void>
+       <void property="rebotes">
+        <int>30000</int>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void property="localidad">
+     <string>barcelona</string>
+    </void>
+    <void property="nombre">
+     <string>barça</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
